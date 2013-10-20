@@ -121,11 +121,9 @@
 		25AFB5951813E6CA00EE482B /* ZombieConga */ = {
 			isa = PBXGroup;
 			children = (
-				25AFB59E1813E6CA00EE482B /* AppDelegate.h */,
-				25AFB59F1813E6CA00EE482B /* AppDelegate.m */,
+				25AFB5CA18145E4A00EE482B /* App Delegates */,
 				25AFB5A11813E6CA00EE482B /* Main.storyboard */,
-				25AFB5A41813E6CA00EE482B /* ViewController.h */,
-				25AFB5A51813E6CA00EE482B /* ViewController.m */,
+				25AFB5C918145E3E00EE482B /* View Controllers */,
 				25AFB5A71813E6CA00EE482B /* MyScene.h */,
 				25AFB5A81813E6CA00EE482B /* MyScene.m */,
 				25AFB5AA1813E6CA00EE482B /* Spaceship.png */,
@@ -162,6 +160,24 @@
 				25AFB5BC1813E6CA00EE482B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25AFB5C918145E3E00EE482B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25AFB5A41813E6CA00EE482B /* ViewController.h */,
+				25AFB5A51813E6CA00EE482B /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		25AFB5CA18145E4A00EE482B /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				25AFB59E1813E6CA00EE482B /* AppDelegate.h */,
+				25AFB59F1813E6CA00EE482B /* AppDelegate.m */,
+			);
+			name = "App Delegates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
